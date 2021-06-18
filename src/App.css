@@ -1,18 +1,15 @@
 .App {
-  display: flex;
-  text-align: center;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  padding-top: 20px;
+}
+
+.column {
+  width: 30%;
 }
 
 .list-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex: 1;
-  justify-content: center;
-  align-items: center;
   align-self: center;
   text-align: center;
 }
@@ -22,7 +19,7 @@
   padding: 10px 10px;
   cursor: pointer;
   z-index: 100;
-  mix-blend-mode: overlay;
+  mix-blend-mode: darken;
 }
 
 #background {

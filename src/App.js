@@ -1,5 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
+import Item from "./Item";
 
 const backgrounds = {
   perro:
@@ -8,60 +9,57 @@ const backgrounds = {
 };
 
 function App() {
-  const [isMouseHover, setIsMouseHover] = useState(false);
-  const [selectedAnimal, setSelectedAnimal] = useState("perro");
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
-  const onMouseOver = (animal, event) => {
-    console.log(event)
-    setMousePosition({ x: event.clientX, y: event.clientY });
-    setIsMouseHover(true);
-    setSelectedAnimal(animal);
-  };
-
-  console.log(mousePosition)
+  const [selectedAnimal, setSelectedAnimal] = useState();
 
   return (
     <div className={`App`}>
       <React.Fragment>
-        {isMouseHover && (
+        {!!selectedAnimal && (
           <div
             id="background"
             style={{ backgroundImage: `url(${backgrounds[selectedAnimal]})` }}
           />
         )}
         <div className="list-container">
-          <div
-            className="list-content"
-            onMouseEnter={(e) => onMouseOver("perro", e)}
-            onMouseLeave={() => setIsMouseHover(false)}
-          >
-            <span className="list-text">PERRO</span>
-            {isMouseHover && selectedAnimal === 'perro' && (
-              <img
-                alt="perro"
-                src={backgrounds.perro}
-                id="perro-img"
-                className="image"
-                style={{ top: mousePosition.y, left: mousePosition.x }}
-              />
-            )}
+          <div className="column">
+            <Item
+              onHover={() => setSelectedAnimal("perro")}
+              onHoverEnd={() => setSelectedAnimal(null)}
+              animalName="perro"
+              img={backgrounds.perro}
+            />
+            <Item
+              onHover={() => setSelectedAnimal("pato")}
+              onHoverEnd={() => setSelectedAnimal(null)}
+              animalName="pato"
+              img={backgrounds.pato}
+            />
+            <Item
+              onHover={() => setSelectedAnimal("perro")}
+              onHoverEnd={() => setSelectedAnimal(null)}
+              animalName="perro"
+              img={backgrounds.perro}
+            />
           </div>
-          <div
-            className="list-content"
-            onMouseEnter={(e) => onMouseOver("pato", e)}
-            onMouseLeave={() => setIsMouseHover(false)}
-          >
-            PATO
-            {isMouseHover && selectedAnimal === 'pato' &&
-            <img
-                alt="pato"
-                src={backgrounds.pato}
-                id="pato-img"
-                className="image"
-                style={{ top: mousePosition.y, left: mousePosition.x }}
-              />
-            }
+          <div className="column">
+            <Item
+              onHover={() => setSelectedAnimal("perro")}
+              onHoverEnd={() => setSelectedAnimal(null)}
+              animalName="perro"
+              img={backgrounds.perro}
+            />
+            <Item
+              onHover={() => setSelectedAnimal("pato")}
+              onHoverEnd={() => setSelectedAnimal(null)}
+              animalName="pato"
+              img={backgrounds.pato}
+            />
+            <Item
+              onHover={() => setSelectedAnimal("perro")}
+              onHoverEnd={() => setSelectedAnimal(null)}
+              animalName="perro"
+              img={backgrounds.perro}
+            />
           </div>
         </div>
       </React.Fragment>
