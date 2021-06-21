@@ -5,17 +5,26 @@
     "cybermission": {
         "photo": "./photos/cybermission-c.jpg"
     },
-    "mariane staric":{
+    "mariane stark":{
         "photo": "./photos/marlene-c.jpg"
     },
     "sbri": {
-        "photo": "./photos/sbri-c.png"
+        "photo": "./photos/sbri-c.png",
+        "photoPosition": {
+            "y": "middle"
+        }
     },
     "steve marie aka stigma": {
-        "photo": "./photos/image0-c.jpg"
+        "photo": "./photos/image0-c.jpg",
+        "photoPosition": {
+            "y": "middle"
+        }
     },
     "dj loui from jupiter4": {
-        "photo": "./photos/loui-c.jpg"
+        "photo": "./photos/loui-c.jpg",
+        "photoPosition": {
+            "x": "left"
+        }
     },
     "hermeth": {
         "photo": "./photos/hermeth-c.jpg"
@@ -24,9 +33,15 @@
         "photo": "./photos/NEUVERBOTEN-c.jpg"
     },
     "stella zekri" :{
-        "photo": "./photos/stella-c.jpg"
+        "photo": "./photos/stella-c.jpg",
+        "photoPosition": {
+            "y": "middle"
+        }
     },
     "yoshi": {
-        "photo": "./photos/Yoshi-c.jpg"
+        "photo": "./photos/Yoshi-c.jpg",
+        "photoPosition": {
+            "y": "middle"
+        }
     }
 }

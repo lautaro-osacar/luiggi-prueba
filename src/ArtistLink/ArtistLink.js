@@ -1,10 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./styles.css";
 
-const ArtistLink = ({ photo, name, onHover, onHoverEnd, mousePosition }) => {
+const ArtistLink = ({
+  photo,
+  name,
+  photoPosition,
+  onHover,
+  onHoverEnd,
+  mousePosition,
+}) => {
   const [isMouseHover, setIsMouseHover] = useState(false);
+  const [imageSize, setImageSize] = useState({ height: 0, width: 0 });
 
-  const onMouseHover = (event) => {
+  const onMouseHover = () => {
     setIsMouseHover(true);
     onHover();
   };
@@ -14,6 +22,27 @@ const ArtistLink = ({ photo, name, onHover, onHoverEnd, mousePosition }) => {
     onHoverEnd();
   };
 
+  const onLoad = (event) => {
+    setImageSize({
+      height: event.target.offsetHeight,
+      width: event.target.offsetWidth,
+    });
+  };
+
+  const getPosition = () => {
+    let top = mousePosition.y;
+    let left = mousePosition.x;
+    if (photoPosition) {
+      if (photoPosition.y === "middle") {
+        top = top - imageSize.height / 2;
+      }
+      if (photoPosition.x === 'left') {
+          left = left - imageSize.width
+      }
+    }
+    return { top, left };
+  };
+
   return (
     <React.Fragment>
       {isMouseHover && (
@@ -21,13 +50,16 @@ const ArtistLink = ({ photo, name, onHover, onHoverEnd, mousePosition }) => {
           alt={name}
           src={photo}
           className="image"
-          style={{ top: mousePosition.y, left: mousePosition.x }}
+          style={{
+            ...getPosition(),
+          }}
+          onLoad={onLoad}
         />
       )}
       <span
         className="artist-link"
         href="#"
-        onMouseEnter={(e) => onMouseHover(e)}
+        onMouseEnter={(e) => onMouseHover()}
         onMouseLeave={() => onMouseHoverEnd()}
       >
         {name}

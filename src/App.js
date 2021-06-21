@@ -5,7 +5,6 @@ import ArtistsList from "./ArtistsList/ArtistsList";
 
 function App() {
   const [selectedArtist, setSelectedArtist] = useState();
-  console.log(selectedArtist)
 
   return (
     <div className={`App`}>

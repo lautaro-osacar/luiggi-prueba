@@ -25,6 +25,7 @@ const ArtistsList = ({ onHoverArtist, onHoverArtistEnd }) => {
             <ArtistLink
               name={name}
               photo={artistsJson[name].photo}
+              photoPosition={artistsJson[name].photoPosition}
               onHover={() => onHoverArtist(artistsJson[name])}
               onHoverEnd={onHoverArtistEnd}
               mousePosition={mousePosition}
@@ -38,6 +39,7 @@ const ArtistsList = ({ onHoverArtist, onHoverArtistEnd }) => {
             <ArtistLink
               name={name}
               photo={artistsJson[name].photo}
+              photoPosition={artistsJson[name].photoPosition}
               onHover={() => onHoverArtist(artistsJson[name])}
               onHoverEnd={onHoverArtistEnd}
               mousePosition={mousePosition}
