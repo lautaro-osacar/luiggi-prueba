@@ -1,0 +1,18 @@
+.artist-link {
+  font-size: 3.5vw;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: DrukMedium;
+  display: block;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.image {
+    background-color: transparent;
+    z-index: 1;
+    position: fixed;
+    mix-blend-mode: lighten;
+    border-radius: 5px;
+}

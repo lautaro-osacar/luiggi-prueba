@@ -1,0 +1,13 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-right: 40px;
+    padding-bottom: 70px;
+}
+
+#center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
