@@ -11,18 +11,6 @@
   /* background-color: white; */
 }
 
-.column {
-  width: 30%;
-}
-
-.list-container {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  align-self: center;
-  text-align: center;
-}
-
 #background {
   position: fixed;
   top: 0;
@@ -37,20 +25,4 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#perro-img {
-  width: 532px;
-  height: 576px;
-}
-
-#pato-img {
-  width: 250px;
-  height: 287px;
-}
-
-.image {
-  max-height: 100%;
-  max-width: 60vw;
-  position: fixed;
 }

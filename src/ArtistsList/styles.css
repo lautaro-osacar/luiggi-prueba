@@ -5,14 +5,19 @@
 }
 
 .artists-container {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
 .artist-link-container {
-    display: flex;
-    flex: 1;
-    margin-bottom: 20px;
+  display: flex;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.image {
+  max-height: 90vh;
+  max-width: 60vw;
+  position: fixed;
 }
