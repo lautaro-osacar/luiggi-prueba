@@ -36,8 +36,8 @@ const ArtistLink = ({
       if (photoPosition.y === "middle") {
         top = top - imageSize.height / 2;
       }
-      if (photoPosition.x === 'left') {
-          left = left - imageSize.width
+      if (photoPosition.x === "left") {
+        left = left - imageSize.width;
       }
     }
     return { top, left };
@@ -56,14 +56,14 @@ const ArtistLink = ({
           onLoad={onLoad}
         />
       )}
-      <span
+      <a
         className="artist-link"
         href="#"
         onMouseEnter={(e) => onMouseHover()}
         onMouseLeave={() => onMouseHoverEnd()}
       >
         {name}
-      </span>
+      </a>
     </React.Fragment>
   );
 };

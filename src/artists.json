@@ -1,44 +1,44 @@
 {
-    "amygdala": {
+    "AMYGDALA": {
         "photo": "./photos/anissa-c.jpeg"
     },
-    "cybermission": {
+    "CYBERMISSION": {
         "photo": "./photos/cybermission-c.jpg"
     },
-    "mariane stark":{
+    "MARLANE STARK": {
         "photo": "./photos/marlene-c.jpg"
     },
-    "sbri": {
+    "SBRI": {
         "photo": "./photos/sbri-c.png",
         "photoPosition": {
             "y": "middle"
         }
     },
-    "steve marie aka stigma": {
+    "STEVE MARIE aka STIGMA": {
         "photo": "./photos/image0-c.jpg",
         "photoPosition": {
             "y": "middle"
         }
     },
-    "dj loui from jupiter4": {
+    "DJ LOUI FROM JUPITER4": {
         "photo": "./photos/loui-c.jpg",
         "photoPosition": {
             "x": "left"
         }
     },
-    "hermeth": {
+    "HERMETH": {
         "photo": "./photos/hermeth-c.jpg"
     },
-    "nev verbotem": {
+    "NEV VERBOTEN": {
         "photo": "./photos/NEUVERBOTEN-c.jpg"
     },
-    "stella zekri" :{
+    "STELLA ZEKRI": {
         "photo": "./photos/stella-c.jpg",
         "photoPosition": {
             "y": "middle"
         }
     },
-    "yoshi": {
+    "YOSHI": {
         "photo": "./photos/Yoshi-c.jpg",
         "photoPosition": {
             "y": "middle"

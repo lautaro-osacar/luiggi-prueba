@@ -1,18 +1,22 @@
 .artist-link {
-  font-size: 3.5vw;
+  font-size: 3vw;
   color: black;
-  text-transform: uppercase;
   text-decoration: none;
   font-family: DrukMedium;
   display: block;
   cursor: pointer;
   z-index: 100;
+  /* background-color: white;
+  mix-blend-mode: difference; */
 }
 
 .image {
     background-color: transparent;
-    z-index: 1;
+    z-index: 50;
     position: fixed;
     mix-blend-mode: lighten;
     border-radius: 5px;
+    max-height: 90vh;
+    max-width: 60vw;
+    position: fixed;
 }

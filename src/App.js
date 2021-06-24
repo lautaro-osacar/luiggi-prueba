@@ -8,19 +8,18 @@ function App() {
 
   return (
     <div className={`App`}>
-      <React.Fragment>
-        {!!selectedArtist && (
-          <div
-            id="background"
-            style={{ backgroundImage: `url(${selectedArtist})` }}
-          />
-        )}
-        <Header />
-        <ArtistsList
-          onHoverArtist={(artist) => setSelectedArtist(artist.photo)}
-          onHoverArtistEnd={() => setSelectedArtist(null)}
+      {!!selectedArtist && (
+        <div
+          id="background"
+          style={{ backgroundImage: `url(${selectedArtist})` }}
         />
-      </React.Fragment>
+      )}
+      <Header />
+      <ArtistsList
+        onHoverArtist={(artist) => setSelectedArtist(artist.photo)}
+        onHoverArtistEnd={() => setSelectedArtist(null)}
+      />
+      {!selectedArtist && <div id="background-bottom" />}
     </div>
   );
 }
