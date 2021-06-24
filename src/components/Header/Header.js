@@ -1,13 +1,16 @@
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div id="header">
       <div id="center">
-        <a className="header-item"> ARTISTS </a>
+      <Link className="header-item" to="/">ARTISTS</Link>
       </div>
       <div id="right">
-        <a className="header-item"> ABOUT </a>
+        <Link className="header-item" to="/about">
+          ABOUT
+        </Link>
       </div>
     </div>
   );

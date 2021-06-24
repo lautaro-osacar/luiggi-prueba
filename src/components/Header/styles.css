@@ -6,6 +6,11 @@
     padding-bottom: 70px;
 }
 
+.header-item {
+    color: black;
+    text-decoration: none;
+}
+
 #center {
     display: flex;
     flex: 1;

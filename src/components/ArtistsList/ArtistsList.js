@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import artistsJson from "../artists.json";
+import artistsJson from "../../artists.json";
 import "./styles.css";
 import ArtistLink from "../ArtistLink/ArtistLink";
 

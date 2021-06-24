@@ -1,25 +1,21 @@
 import "./App.css";
-import React, { useState } from "react";
-import Header from "./Header/Header";
-import ArtistsList from "./ArtistsList/ArtistsList";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./screens/Home/Home";
+import About from "./screens/About/About";
 
 function App() {
-  const [selectedArtist, setSelectedArtist] = useState();
-
   return (
     <div className={`App`}>
-      {!!selectedArtist && (
-        <div
-          id="background"
-          style={{ backgroundImage: `url(${selectedArtist})` }}
-        />
-      )}
-      <Header />
-      <ArtistsList
-        onHoverArtist={(artist) => setSelectedArtist(artist.photo)}
-        onHoverArtistEnd={() => setSelectedArtist(null)}
-      />
-      {!selectedArtist && <div id="background-bottom" />}
+      <Router>
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
