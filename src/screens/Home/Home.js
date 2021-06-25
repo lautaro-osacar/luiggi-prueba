@@ -18,9 +18,15 @@ const Home = () => {
         onHoverArtist={(artist) => setSelectedArtist(artist.photo)}
         onHoverArtistEnd={() => setSelectedArtist(null)}
       />
-      {!selectedArtist && <div id="background-bottom" />}
+      {!selectedArtist && (
+        <React.Fragment>
+          <div id="background-bottom" />
+          <img id="background-bottom-logo" src="./logo.gif" alt="logo" />
+          <span id="background-bottom-year">@2021</span>
+        </React.Fragment>
+      )}
     </React.Fragment>
   );
-}
+};
 
 export default Home;

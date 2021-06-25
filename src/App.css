@@ -3,10 +3,14 @@
   font-family: "DrukMedium";
   src: local("DrukMedium"), url("./fonts/DrukMedium.otf") format("opentype");
 }
+@font-face {
+  font-family: "UbuntuRegular";
+  src: local("UbuntuRegular"), url("./fonts/Ubuntu-Regular.ttf") format("truetype");
+}
 
 .App {
-  padding-top: 20px;
-  padding-left: 12px;
+  padding-top: 25px;
+  padding-left: 40px;
   padding-right: 12px;
   /* background-color: white; */
 }
@@ -18,10 +22,24 @@
   left: 0;
   height: 100vh;
   width: 100vw;
-  background-image: url('./home-background.png');
+  background-image: url('./loui-01.svg');
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+#background-bottom-logo {
+  position: fixed;
+  bottom: 100px;
+  right: -20px;
+  height: 50vh;
+}
+
+#background-bottom-year {
+  font-family: UbuntuRegular;
+  position: fixed;
+  bottom: 35px;
+  right: 60px;
 }
 
 #background {
