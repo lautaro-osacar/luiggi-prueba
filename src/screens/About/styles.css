@@ -1,0 +1,25 @@
+#about-hz {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+#about-left {
+  width: 50%;
+}
+
+#about-description {
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#about-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+#about-logo {
+}
