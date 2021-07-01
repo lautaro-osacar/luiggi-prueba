@@ -2,27 +2,38 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import "./styles.css";
 import contentJson from "./content.json";
+import FacebookIcon from "../../icons/Facebook";
+import InstagramIcon from "../../icons/Instagram";
+import SoundcloudIcon from "../../icons/Soundcloud";
 
 const About = () => {
-  console.log(contentJson);
   return (
     <React.Fragment>
       <Header />
-      <div id="about-hz">
-        <div id="about-left">
+      <div className="about-hz">
+        <div className="about-left">
           <span id="about-description">
             {contentJson.description.split("\n").map((str) => (
               <p>{str}</p>
             ))}
           </span>
         </div>
-        <div id="about-right">
-          <img
-            id="about-logo"
-            src="./logo-cropped.png"
-            alt="logo"
-            //style={{ height: "200px" }}
-          />
+        <div className="about-right">
+          <img id="about-logo" src="./logo.gif" alt="logo" />
+        </div>
+      </div>
+      <div className="about-hz">
+        <div className="about-left">
+          <div id="about-contact">
+            <div id="about-social-media">
+              <FacebookIcon className="social-logo" />
+              <InstagramIcon className="social-logo" />
+              <SoundcloudIcon className="social-logo" />
+            </div>
+            <div id="about-contact-mail">
+              General inquires: info@clO-Olc.com
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>

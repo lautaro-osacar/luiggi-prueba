@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./screens/Home/Home";
 import About from "./screens/About/About";
+import Artist from "./screens/Artist/Artist";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
         <Switch>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/artist">
+            <Artist />
           </Route>
           <Route path="/">
             <Home />

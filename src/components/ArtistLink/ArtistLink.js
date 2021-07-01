@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 const ArtistLink = ({
@@ -56,14 +57,14 @@ const ArtistLink = ({
           onLoad={onLoad}
         />
       )}
-      <a
+      <Link
         className="artist-link"
-        href="#"
+        to="/artist"
         onMouseEnter={(e) => onMouseHover()}
         onMouseLeave={() => onMouseHoverEnd()}
       >
         {name}
-      </a>
+      </Link>
     </React.Fragment>
   );
 };

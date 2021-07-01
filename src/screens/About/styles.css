@@ -1,25 +1,51 @@
-#about-hz {
+.about-hz {
   display: flex;
   flex-direction: row;
   flex: 1;
 }
 
-#about-left {
-  width: 50%;
+.about-left {
+  width: 60%;
 }
 
 #about-description {
   font-size: 15px;
   text-align: center;
   text-transform: uppercase;
+  font-family: UbuntuRegular;
 }
 
-#about-right {
+.about-right {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 40%;
 }
 
 #about-logo {
+  position: absolute;
+}
+
+.social-logo {
+  padding: 0 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.social-logo:not(:hover) path {
+  fill: black;
+}
+
+#about-social-media {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#about-contact-mail {
+  margin-top: 20px; 
+  font-size: 13px;
+  text-align: center;
+  font-family: UbuntuRegular;
 }
