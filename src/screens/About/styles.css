@@ -47,7 +47,7 @@
 }
 
 #about-address {
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
   font-family: UbuntuRegular;
   padding: 0 10px;
@@ -68,4 +68,8 @@
 
 #bottom-about {
   margin-top: 15px;
+}
+
+#bottom-about .about-right{
+  align-items: flex-end;
 }
