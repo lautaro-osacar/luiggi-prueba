@@ -17,6 +17,7 @@ const About = () => {
               <p>{str}</p>
             ))}
           </span>
+          <div id="about-phrase">{contentJson.phrase}</div>
         </div>
         <div className="about-right">
           <img id="about-logo" src="./logo.gif" alt="logo" />
@@ -29,9 +30,10 @@ const About = () => {
               <FacebookIcon className="social-logo" />
               <InstagramIcon className="social-logo" />
               <SoundcloudIcon className="social-logo" />
-            </div>
-            <div id="about-contact-mail">
-              General inquires: info@clO-Olc.com
+              <div id="about-contact-mail">
+                <p>General inquires:</p>
+                <p>info@clO-Olc.com</p>
+              </div>
             </div>
           </div>
         </div>

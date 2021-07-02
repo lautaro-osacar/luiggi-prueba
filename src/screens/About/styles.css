@@ -5,7 +5,7 @@
 }
 
 .about-left {
-  width: 60%;
+  width: 65%;
 }
 
 #about-description {
@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 35%;
 }
 
 #about-logo {
@@ -41,11 +41,27 @@
 #about-social-media {
   margin-top: 30px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #about-contact-mail {
-  margin-top: 20px; 
   font-size: 14px;
   text-align: center;
   font-family: UbuntuRegular;
+  padding: 0 10px;
+}
+
+#about-contact-mail p{
+  margin: 0;
+}
+
+#about-phrase {
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: UbuntuRegular;
+  font-weight: bold;
 }

@@ -3,8 +3,8 @@
         "photo": "./photos/anissa-c.jpeg",
         "description": "Amygdala is a Switzerland based DJ/Producer, multi-instrumentalist and record collector, devoted to the underground scene of Zurich.\n\nUnrestricted by genre or tempo, Amygdala’s mixes are a phantom on fire. Her authentic style combines the Proto-Acid Punk early purpose of Letfield music with Industrial, Infectious Techno and beyond. Enforcer of the hallucination, she has the persistent determination to discover distinctive mind altering music, to the rampant rejoice of playing it to challenging audiences in her regular underground spots.\n\nCrate digger by nature, she’s always in pursuit of rare and trance-inducing albums, decoding the true free message sent by previous generations of artist, keeping alive the rave sub culture and breaking the boundaries of actual convention with her own interpretation. Authenticity!\n\nAs producer, Amygdala’s work is congruent with her musical vast knowledge. Her first release with YLGR Paris combines retro-futurist drum lines, bass heavy hypnosis, 90s bleep and acid motifs with musical passages, melodies and moments of sentimental release. Traditions and innovation connected thru Amygdala’s very own creative process.\n\nA new upcoming release on well known Zurich based Gentrified Underground is on the way and Amygdala’s artistic project is constantly evolving, unifying a universe of influences and accepting the challenge to express herself while doing so."
     },
-    "CYBERMISSION": {
-        "photo": "./photos/cybermission-c.jpg"
+    "DJ LOUI FROM JUPITER4": {
+        "photo": "./photos/loui-c.jpg"
     },
     "MARLENE STARK": {
         "photo": "./photos/marlene-c.jpg"
@@ -21,11 +21,8 @@
             "y": "middle"
         }
     },
-    "DJ LOUI FROM JUPITER4": {
-        "photo": "./photos/loui-c.jpg",
-        "photoPosition": {
-            "x": "left"
-        }
+    "CYBERMISSION": {
+        "photo": "./photos/cybermission-c.jpg"
     },
     "HERMETH": {
         "photo": "./photos/hermeth-c.jpg"

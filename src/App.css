@@ -7,6 +7,10 @@
   font-family: "UbuntuRegular";
   src: local("UbuntuRegular"), url("./fonts/Ubuntu-Regular.ttf") format("truetype");
 }
+@font-face {
+  font-family: "UbuntuBold";
+  src: local("UbuntuBold"), url("./fonts/Ubuntu-Bold.ttf") format("truetype");
+}
 
 .App {
   padding-top: 25px;
