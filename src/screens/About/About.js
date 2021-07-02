@@ -17,24 +17,29 @@ const About = () => {
               <p>{str}</p>
             ))}
           </span>
-          <div id="about-phrase">{contentJson.phrase}</div>
         </div>
         <div className="about-right">
           <img id="about-logo" src="./logo.gif" alt="logo" />
         </div>
       </div>
-      <div className="about-hz">
+      <div className="about-hz" id="bottom-about">
         <div className="about-left">
+          <div id="about-phrase">{contentJson.phrase}</div>
           <div id="about-contact">
             <div id="about-social-media">
               <FacebookIcon className="social-logo" />
               <InstagramIcon className="social-logo" />
               <SoundcloudIcon className="social-logo" />
-              <div id="about-contact-mail">
-                <p>General inquires:</p>
-                <p>info@clO-Olc.com</p>
-              </div>
             </div>
+          </div>
+        </div>
+        <div className="about-right">
+          <div id="about-address">
+            <p>Reinhardtstr. 18</p>
+            <p>10178 Berlin</p>
+            <p>Germany</p>
+            <p>E-Mail: info@clO-Olc.com</p>
+            <p>Tel: +49 0 1520 7909153</p>
           </div>
         </div>
       </div>

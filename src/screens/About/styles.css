@@ -46,14 +46,14 @@
   align-items: center;
 }
 
-#about-contact-mail {
+#about-address {
   font-size: 14px;
   text-align: center;
   font-family: UbuntuRegular;
   padding: 0 10px;
 }
 
-#about-contact-mail p{
+#about-address p{
   margin: 0;
 }
 
@@ -64,4 +64,8 @@
   text-transform: uppercase;
   font-family: UbuntuRegular;
   font-weight: bold;
+}
+
+#bottom-about {
+  margin-top: 15px;
 }
