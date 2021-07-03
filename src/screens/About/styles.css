@@ -23,7 +23,7 @@
 }
 
 #about-logo {
-  position: absolute;
+  width: 80%;
 }
 
 .social-logo {
@@ -53,7 +53,7 @@
   padding: 0 10px;
 }
 
-#about-address p{
+#about-address p {
   margin: 0;
 }
 
@@ -70,6 +70,6 @@
   margin-top: 15px;
 }
 
-#bottom-about .about-right{
+#bottom-about .about-right {
   align-items: flex-end;
 }

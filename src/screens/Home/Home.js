@@ -19,11 +19,11 @@ const Home = () => {
         onHoverArtistEnd={() => setSelectedArtist(null)}
       />
       {!selectedArtist && (
-        <React.Fragment>
+        <div>
           <div id="background-bottom" />
-          <img id="background-bottom-logo" src="./logo.gif" alt="logo" />
+          <img id="background-bottom-logo" src="./crop2.gif" alt="logo" />
           <span id="background-bottom-year">@2021</span>
-        </React.Fragment>
+        </div>
       )}
     </React.Fragment>
   );

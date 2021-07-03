@@ -13,13 +13,13 @@ const About = () => {
       <div className="about-hz">
         <div className="about-left">
           <span id="about-description">
-            {contentJson.description.split("\n").map((str) => (
-              <p>{str}</p>
+            {contentJson.description.split("\n").map((str, index) => (
+              <p id={index}>{str}</p>
             ))}
           </span>
         </div>
         <div className="about-right">
-          <img id="about-logo" src="./logo.gif" alt="logo" />
+          <img id="about-logo" src="./crop2.gif" alt="logo" />
         </div>
       </div>
       <div className="about-hz" id="bottom-about">

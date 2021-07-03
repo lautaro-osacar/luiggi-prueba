@@ -59,7 +59,7 @@ const ArtistLink = ({
       )}
       <Link
         className="artist-link"
-        to="/artist"
+        to={`/artist/${name}`}
         onMouseEnter={(e) => onMouseHover()}
         onMouseLeave={() => onMouseHoverEnd()}
       >
