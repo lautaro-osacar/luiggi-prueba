@@ -62,3 +62,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.with-background .artist-link{
+  background-color: transparent;
+}

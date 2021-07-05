@@ -14,7 +14,7 @@ const About = () => {
         <div className="about-left">
           <span id="about-description">
             {contentJson.description.split("\n").map((str, index) => (
-              <p id={index}>{str}</p>
+              <p key={index}>{str}</p>
             ))}
           </span>
         </div>

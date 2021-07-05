@@ -1,45 +1,121 @@
 {
-    "AMYGDALA": {
-        "photo": "./photos/anissa-c.jpeg",
-        "description": "Amygdala is a Switzerland based DJ/Producer, multi-instrumentalist and record collector, devoted to the underground scene of Zurich.\n\nUnrestricted by genre or tempo, Amygdala’s mixes are a phantom on fire. Her authentic style combines the Proto-Acid Punk early purpose of Letfield music with Industrial, Infectious Techno and beyond. Enforcer of the hallucination, she has the persistent determination to discover distinctive mind altering music, to the rampant rejoice of playing it to challenging audiences in her regular underground spots.\n\nCrate digger by nature, she’s always in pursuit of rare and trance-inducing albums, decoding the true free message sent by previous generations of artist, keeping alive the rave sub culture and breaking the boundaries of actual convention with her own interpretation. Authenticity!\n\nAs producer, Amygdala’s work is congruent with her musical vast knowledge. Her first release with YLGR Paris combines retro-futurist drum lines, bass heavy hypnosis, 90s bleep and acid motifs with musical passages, melodies and moments of sentimental release. Traditions and innovation connected thru Amygdala’s very own creative process.\n\nA new upcoming release on well known Zurich based Gentrified Underground is on the way and Amygdala’s artistic project is constantly evolving, unifying a universe of influences and accepting the challenge to express herself while doing so."
+    "amygdala": {
+        "name": "AMYGDALA",
+        "photo": "/photos/anissa-c2.jpeg",
+        "description": "Amygdala is a Switzerland based DJ/Producer, multi-instrumentalist and record collector, devoted to the underground scene of Zurich.\n\nUnrestricted by genre or tempo, Amygdala’s mixes are a phantom on fire. Her authentic style combines the Proto-Acid Punk early purpose of Letfield music with Industrial, Infectious Techno and beyond. Enforcer of the hallucination, she has the persistent determination to discover distinctive mind altering music, to the rampant rejoice of playing it to challenging audiences in her regular underground spots.\n\nCrate digger by nature, she’s always in pursuit of rare and trance-inducing albums, decoding the true free message sent by previous generations of artist, keeping alive the rave sub culture and breaking the boundaries of actual convention with her own interpretation. Authenticity!\n\nAs producer, Amygdala’s work is congruent with her musical vast knowledge. Her first release with YLGR Paris combines retro-futurist drum lines, bass heavy hypnosis, 90s bleep and acid motifs with musical passages, melodies and moments of sentimental release. Traditions and innovation connected thru Amygdala’s very own creative process.\n\nA new upcoming release on well known Zurich based Gentrified Underground is on the way and Amygdala’s artistic project is constantly evolving, unifying a universe of influences and accepting the challenge to express herself while doing so.",
+        "email": "ampi@clO-Olc.com",
+        "soundcloud": "https://soundcloud.com/amygdalaorexis",
+        "discogs": "https://www.discogs.com/artist/7786721-Amygdala-13",
+        "facebook": "https://www.facebook.com/amygdalaorexis",
+        "instagram": "https://www.instagram.com/metamorphosis_8/"
     },
-    "DJ LOUI FROM JUPITER4": {
-        "photo": "./photos/loui-c.jpg"
+    "dj_loui": {
+        "name": "DJ LOUI FROM JUPITER4",
+        "photo": "/photos/loui-c.jpg",
+        "description": "A vast knowledge of various genres and a massive rare wide-ranging record collection, is what separates Jupiter4 Records founder from many other young DJs at the moment. His forward thinking experimentation and dance music vision combines the most atmospheric and dark early New Wave influences with innovative mutant-stomping Techno and surrealist Droning, coordinating time and space in a truly transportive communion with the listeners, that transcend trends and styles.\n\nHe is a go-to selector, that prefer a challenging audience and is constantly open to the unexpected. His mind-bending singular sets have earned him a residence at Berlin HOR radio station, where he carefully creates retrospectives sessions with complete genre freedom.\n\nBorn and raised in Buenos Aires, Argentina, DJ LOUI studied Electronic Arts in the Technologic Institute ORT, under the direction of legendary professor Ernesto Romeo, to then later become his assistant, which would shape his perception of writing music.\n\nIn 2018 he decide to found Jupiter4 Records to put out his own material, releasing 2 records produced in Buenos Aires, with early American Detroit Techno, Electro and Acid influences, getting the likes and plays of DJs such as Ben Ufo, Delta Funktionen, Alienata, among others.\n\nNow he is currently writing upcoming material inspired by his new residency in Berlin and working regularly in a second hand record shop in Kreuzberg, where he is constantly expanding his musical knowledge.",
+        "email": "ampi@clO-Olc.com",
+        "soundcloud": "https://soundcloud.com/jupiter4records",
+        "youtube": "https://www.youtube.com/watch?v=LyRH02yRing&t=2909s",
+        "discogs": "https://www.discogs.com/DJ-LOUI-SQ80-System/release/14083907",
+        "instagram": "https://www.instagram.com/jupiter4__/?hl=es",
+        "facebook": "https://www.facebook.com/jupiter4records"
     },
-    "MARLENE STARK": {
-        "photo": "./photos/marlene-c.jpg"
+    "marlene_stark": {
+        "name": "MARLENE STARK",
+        "photo": "/photos/marlene-c.jpg",
+        "description": "Marlene Stark is a faithful music composer, DJ and passionate writer that likes to sit on the fence of different disciplines and explore them at its countless of possibilities.\n\nResident at Berlin’s best kept secret Sameheads, and host for her radio show SUPERPOSITION at Cashmere Radio Berlin, Marlene has been able to perform around the continent in clubs like Garage Noord Amsterdam, Terminal Lyon, Lizdas Kaunas, Griessmuehle Berlin, to name a few.\n\nHer mind-bending Electro infused peak time style can easily mutate into EBM, Wave and reach experimental and obscure areas of Electronic Music, measuring intensity with release, and mixing light with shadow, to drive audience into guided excursion of her imaginative musical knowledge.\n\nBeing music composer and producer, her authentic work has garnered the attention of press as one of the most innovative emerging projects in Berlin’s electronic music scene. Her last album “Hyäne”, released in 2020 at Zurich based Lustpoderosa, is a neo-ceremonial call to rethink entrenched structures without missing the turmoil of today’s political landscape. Sensitive and unique, the record refuses to settle on a specific gender and revisit early days of Minimal Wave and Electro, with a contemporary and very own Marlene’s interpretation of Letfield Music. Her own voice, usually used in most of her tracks, completes the structure of her music with a personal imprint, but what really drives the message home, is the genuineness in which it is delivered and lived by the artist,  that is constantly rejecting the idea of being typical or ordinary.\n\nAs much as Marlene enjoys her sonic adventures, she is also a writer. In 2019 she published her debut novel “M”, co-authored with Anna Gien. The book explores female sexuality and display the systematic oppression of women in the art scene.",
+        "email": "ampi@clO-Olc.com",
+        "soundcloud": "https://soundcloud.com/marlenestark",
+        "youtube": "https://www.youtube.com/watch?v=BtIkihO1N04",
+        "discogs": "https://www.discogs.com/artist/7120903-Marlene-Stark",
+        "instagram": "https://www.instagram.com/marlene_stark/",
+        "facebook": "https://www.facebook.com/marlenestarkk"
     },
-    "SBRI": {
-        "photo": "./photos/sbri-c.png",
+    "sbri": {
+        "name": "SBRI",
+        "photo": "/photos/sbri-c.png",
         "photoPosition": {
             "y": "middle"
-        }
+        },
+        "description": "Sbri is a blaze of intensity. The Italian born but Spain based DJ, has spent over a decade leaving his mark in the electronic music scene in Barcelona, being a regular firemaker in the best clubs of the city such as La Macarena, Moog, Laut, Input, City Hall, and running his own record shop in the center of the city.\n\nHis remarkable understanding of dance music have entitle him to tour the whole Europe as well, playing in clubs like  Concrete Paris, Ade x Amsterdam, Blank St. Petersburg, Closer Kiev, Egg London, Roshomon Rome, Griessmuehle Berlin, to name a few.\n\nSbri style can be described as a guided tour through the 90’s Italian scene of electronic music, from hypnotic Acid to Trance, rare Disco to timeless Electro, he can fry up a dancefloor in seconds to then make suitable transitions and dive into darkest moments of the set. Naturally, he does it on vinyl.\n\nAs Co-founder of Libertine Records, he has curated a catalog with underground icons such as Le Syndicat Electronique, Dynarec, The Dexorcist, Neuro-d, Gosub, David Carreta, among others. This list is far from complete but does describe the exquisite personal taste of Sbri and the fierce range of his DJ sets.\n\nIn 2019, he release his first double album, Induestries 01. A high voltage record that represent his vision of Letfield music. Charged with 606 and 707 sharp patterns, acid lines and dark pads, the record was compared by blogs as a reminiscent of The Hague/West Coast scene of early 00’s and the dark, brooding, Chicago jackbeat associated with Traxx label’s Nation.\n\nWhile Sbri is working on a new double album, his never ending quest for new and unearth music continues and his record collection still expanding, leaving no doubt that we will hear a lot more from him in the next years to come and his creative journey is just starting.",
+        "email": "ampi@clO-Olc.com",
+        "soundcloud": "https://soundcloud.com/sbri",
+        "discogs": "https://www.discogs.com/artist/4627718-Sbri",
+        "instagram": "https://www.instagram.com/sbri_libertine/?hl=es",
+        "facebook": "https://www.facebook.com/SBRI-1588607341350852"
     },
-    "STEVE MARIE aka STIGMA": {
-        "photo": "./photos/image0-c.jpg",
+    "steve_marie": {
+        "name": "STEVE MARIE aka STIGMA",
+        "photo": "/photos/image0-c.jpg",
         "photoPosition": {
             "y": "middle"
-        }
+        },
+        "description": "If we talk about recent explosions, Steve Marie is, without doubt one of them.\n\nThe french young artist has conquered the entire underground audience with his 2020 releases in Libertine Records, Philoxenia, and his own imprint OPAQ, while filling dance-floors across the country like Concrete, La Machine du Moulin Rouge, Rex Club and the rest of Europe as well.\n\nHis accomplished approach relive the early golden years of Rave Culture in Europe and the Electro-Industrial scene from the 80s, listing influences that goes from Front Line Assembly, Skinny Puppy and the Wax Trax! Records catalog, to the Belgium New Beat and Trance sound, Acid The Hacienda and EBM club scene.\n\nSequenced heavy bass lines, programmed danceable rhythms and distorted vocals with provocative themes, are some of the aspects that describes Steve’s sound, that suits perfect for a sweaty dark basement, as for a rave in the woods or a sunny festival. His preference for long sets is a one of his trademarks, that enable him to display his vast musical knowledge and play the unearth gems that he carefully pick during the week.\n\nAs Steve is talking with major labels about futures releases and recording new podcast, his brilliant present empower him as one of the most promising and intriguing talents to follow in the years to come.",
+        "email": "ampi@clO-Olc.com",
+        "soundcloud": "https://soundcloud.com/stevemarie",
+        "youtube": "https://www.youtube.com/watch?v=OGReRNef_R0&list=PLeEGKmbTZhvjI93M8jM_-nXCaFyiAVrJb",
+        "discogs": "https://www.discogs.com/artist/4647563-Steve-Marie",
+        "instagram": "https://www.instagram.com/stigma_opaq/?hl=es",
+        "facebook": "https://www.facebook.com/stevemarieopaq"
     },
-    "CYBERMISSION": {
-        "photo": "./photos/cybermission-c.jpg"
+    "cybermission": {
+        "name": "CYBERMISSION",
+        "photo": "/photos/cybermission-c.jpg",
+        "description": "Berlin 2078.\n\nThe inner core of a dystopian post society world.\n\nThe rivers are now deserts, filled with dust and trash\n\nThe sky has radioactive clouds and it rains poison.\n\nBut beyond the wastelands, human tribes made by flesh and metal parts, are able to redirect their consciousness into a neural network, and heal the anxiety disorder traces left by the capitalist system, the final step in hacking evolution.\n\nｂｒａｉｎｄａｎｃｅ.\n\n*:.  DNA is software, protein is hardware, cells are now factories ♡¸.●**\n\nAn advanced language based on bravery, repetition and noise, allow the tribes to write the most pure cybercode, with the intention to spread it to the rest of the planet.\n\n\n\n ì̶̖̺̐n̶̢̢̠̜̱͔͎̪̈̐͑t̵̥͓͎̖̼͉͙̱̗̊̍̎͊͂̈͑͐́e̴̛͖̩̙̳͛͂̐͋̚̚͝l̷̨͇̗̞͕̠̽̐̓̈͛͠l̴̡̛̖͋̋̌̃̏͋̈̿͝i̵̩͈̙͋͑̂ǵ̵̢̰̠͇͝e̶̟͓̠͎̺͈͓̺͊̈̕ͅń̸̲͇̦͌͒̆́̉̑͐̓͝ṫ̵̥̞̾̈́̌́̆͋̍ ̷̨͎̹̼̦͛́̑̃̈́̽́͘ḑ̶̩̲̖̞͖̜͌̿̏ͅͅả̴̧̲̀̍͘ṉ̶̠̟̝͕̮̽̓͘͝c̸̡̧͕̫̯̮̯̔͑͋̚͝e̶͓͇̖͈̙̬͈̤̩̓̇͊͋̑̆͝͝ ̷̪̺͚̞̼͙̇͐̾̽̿͜m̸̯͚͌̐͑̈͆̓̍̈̾̚ͅư̵̡̢̟͍̔͂̽͐̚s̶̥̟̙̱̠̬̘̳̣͉̎̕i̴̝̥̊͛͒̆͂͌ç̶̡̖̻̺̰̈́̅̉͑̀͐̓̎͑͜\n\n\n\nA new order is risen.\n\nJoin the sonic resistance.",
+        "email": "ampi@clO-Olc.com",
+        "soundcloud": "https://soundcloud.com/cybermission",
+        "youtube": "https://www.youtube.com/watch?v=mcWL5DlboUI&t=803s",
+        "discogs": "https://www.discogs.com/Cybermission-Constant-Mission-EP-/release/13507834",
+        "facebook": "https://www.facebook.com/Cybermission-217580265547466"
     },
-    "HERMETH": {
-        "photo": "./photos/hermeth-c.jpg"
+    "hermet": {
+        "name": "HERMETH",
+        "photo": "/photos/hermeth-c.jpg",
+        "description": "There is a few new names sounding strong at this moment, and Brainwaves founder Hermeth, is one of them. After 3 impressive releases on his own imprint, he quickly captivated the attention from renowned players such as Alienata, Miley Serious, Jensen Interceptor, DJ Seinfeld and Solid Blake.\n\nWhile his database fan increase everyday, a remarkable support on Bandcamp shows a prominent present for the prolific Switzerland-based artist, who fascinate his audience with his mind-altering acid tool Breakbeat and peak time Electro. His last solo release “Lost My Meth” was considered by Electro bloggers as one of the best of 2020, and his contribution to La Forge’s called “Devil’s Reject” was featured as track of the month on Mixmag.\n\nLike his productions, Hermeth’s DJ sessions are high energy content. His adrenalin-inducing selections made ravers dance all over Europe in his last summer tour and has collaborated with several podcast series like Crazy Behaviour, Carouse, Your Character, S.L.E.T, among others.\n\nFrom brain frying Acid to Breakbeat explosions, stomping Techno and funky Electro expeditions and all the way back, he has passion to spare in the booth and fire up the dancefloor in a minute.\n\nBecause of this broad board of skills, Hermeth shows a bright short term future and his reputation continues to grow, while he continues the endless hours of work on his studio, and is already closing deals with big labels for his 2021/22 releases.",
+        "email": "ampi@clO-Olc.com",
+        "soundcloud": "https://soundcloud.com/hermeth",
+        "youtube": "https://www.youtube.com/watch?v=BtIkihO1N04",
+        "discogs": "https://www.discogs.com/artist/6955644-Hermeth",
+        "facebook": "https://www.facebook.com/HermethMusic",
+        "instagram": "https://www.instagram.com/hermethmusic/?hl=es"
     },
-    "NEU VERBOTEN": {
-        "photo": "./photos/NEUVERBOTEN-c.jpg"
+    "neu_verboten": {
+        "name": "NEU VERBOTEN",
+        "photo": "/photos/NEUVERBOTEN-c.jpg",
+        "description": "Neu Verboten is transmitting sonic metadata from the Interzone.\n\nBetween the secret Lustpoderosa headquarter and the decentralized battlefields of todays dance resistance, while receiving information about political malware and forgotten messages of peace on earth they try to involve new members to the Resistance for the new forbidden ways of anarchist diy-life. Taking its cues from old synth machines & rusty surveillance tools to fight for a radical open rave society.",
+        "email": "ampi@clO-Olc.com",
+        "soundcloud": "https://soundcloud.com/neuverboten",
+        "youtube": "https://www.youtube.com/watch?v=vAlcuLYQNSw&t=1023s",
+        "discogs": "https://www.discogs.com/artist/6171820-Neu-Verboten",
+        "instagram": "https://www.instagram.com/neuverboten/",
+        "facebook": "https://www.facebook.com/neuverboten"
     },
-    "STELLA ZEKRI": {
-        "photo": "./photos/stella-c.jpg",
+    "stella_zekri": {
+        "name": "STELLA ZEKRI",
+        "photo": "/photos/stella-c.jpg",
         "photoPosition": {
             "y": "middle"
-        }
+        },
+        "description": "While eclecticism starts to become a commonly word to describe DJs, just a few celebrate its meaning, and Stella Zekri is certainly one of them. Her distinctive approach states DJing as art; an expressive, vivid language, that go along with her sense of complete freedom. She just don’t want to be, she is.\n\nEither in abandoned warehouses, rave in the woods or just setting up the mood for a room, Stella will put the heart on it, and will take the audience on a guided tour for every quality music from all the musical eras, transcending genre and trends. From Jazz to Hip Hop, Breaks and Dub, from Funk to Electro, Disco and Trance, there is no rules or limits, just her true self.\n\nHer superlative taste is backed up for a huge record collection, and the everyday diggin’ is one of the keyframes of Stella’s lifestyle. She embrace record culture as the opportunity to connect with the endless music universe and the fascinating fact that there is plenty to discover and more to come.\n\nResident at HÖR radio and a regular in hedonist LGBT party Cocktail D’amore, Stella reputation is growing fast, and even being young, she already count with a vast experience and played in every corner of Berlin’s electronic music scene, such as Griessmuehle, ://About Blank, Sameheads, and also in her very own Kake party.\n\nAs musician, Stella is known to include her captivating voice over her mixes. She is a talented trained vocalist and she is currently recording her debut LP, along with invited musicians and friends.",
+        "email": "ampi@clO-Olc.com",
+        "soundcloud": "https://soundcloud.com/stella-zekri-ouiddir",
+        "youtube": "https://www.youtube.com/watch?v=Q1FTJowhyNs&t=2635s",
+        "discogs": "https://www.discogs.com/artist/6119245-Stella-Zekriv",
+        "instagram": "https://www.instagram.com/stellasnacks/?hl=es",
+        "facebook": "https://www.facebook.com/stellazekrimusic/"
     },
-    "YOSHI": {
-        "photo": "./photos/Yoshi-c.jpg",
+    "yoshi": {
+        "name": "YOSHI",
+        "photo": "/photos/Yoshi-c.jpg",
         "photoPosition": {
             "y": "middle"
-        }
+        },
+        "description": "Underground devoted and vinyl enthusiast, Yoshi, is the co-founder of Libertine Records, managing record label, organising raves and running a well known physical second hand shop in Berlin.\n\nStarting his early days looking for empty warehouses and lofts to rent and make illegal parties, the Italian born and Berlin based DJ, has been over a decade mastering a unique technique that navigates electronic music’s darkest corners. Emphasising energy and intensity, measuring temperatures and staying true to the essential Letfield culture that goes from Dark Disco to Electro, Acid ,New Wave, Techno and Trance.\n\nWith a vast experience, he has been able to captivate audiences in venues like Goa Rome, Concrete Paris, OHM Berlin, Robert Johnson Frankfurt, Closer Kiev, The Cause London, and share booth with legends such as Ultradyne, Dopplereffekt, DMX Krew, Jane Fitz, to name a few.\n\nCo-founder of Libertine Records, he has curated a catalog with underground icons such as Le Syndicat Electronique, Dynarec, The Dexorcist, Marco Passarani, David Carreta, among others.\n\nAs music writer, he is committed to the improvisation. His jam sessions are submerged in a sensitive and authentic dialogue between vintage drum machines and analog synthesisers, and he is usually cutting recordings and finishing tracks with no edition at all, to then release them in his own imprint.\n\nNevertheless, is in the club where Yoshi makes the difference, +10 years of experience on DJing and a prodigious knowledge of all the musical eras, makes the Italian DJ one of Berlin’s best-kept secrets.",
+        "email": "ampi@clO-Olc.com",
+        "soundcloud": "https://soundcloud.com/stevemarie",
+        "youtube": "https://www.youtube.com/watch?v=oh--FdPxHd0&t=296s",
+        "discogs": "https://www.discogs.com/artist/4481001-Yoshi-40",
+        "instagram": "https://www.instagram.com/yoshi_libertinerecords/?hl=es",
+        "facebook": "https://www.facebook.com/yoshilibertine"
     }
 }

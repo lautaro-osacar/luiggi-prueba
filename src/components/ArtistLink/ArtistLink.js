@@ -4,6 +4,7 @@ import "./styles.css";
 
 const ArtistLink = ({
   photo,
+  id,
   name,
   photoPosition,
   onHover,
@@ -49,7 +50,7 @@ const ArtistLink = ({
       {isMouseHover && (
         <img
           alt={name}
-          src={photo}
+          src={process.env.PUBLIC_URL + photo}
           className="image"
           style={{
             ...getPosition(),
@@ -59,7 +60,7 @@ const ArtistLink = ({
       )}
       <Link
         className="artist-link"
-        to={`/artist/${name}`}
+        to={`/artist/${id}`}
         onMouseEnter={(e) => onMouseHover()}
         onMouseLeave={() => onMouseHoverEnd()}
       >

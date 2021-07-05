@@ -1,0 +1,66 @@
+#artist-title {
+  font-size: 2.5vw;
+  color: black;
+  font-family: DrukMedium;
+  display: block;
+  z-index: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#artist-hz {
+  display: flex;
+  flex-direction: row;
+}
+
+#artist-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+}
+
+#artist-image {
+  max-height: 60vh;
+  object-fit: contain;
+  object-position: left;
+}
+
+#artist-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+#artist-description {
+  padding-left: 15px;
+  padding-right: 40px;
+  font-size: 1.2em;
+  text-align: left;
+  font-family: UbuntuRegular;
+}
+
+#artist-description p {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+#artist-contact {
+  margin-top: 1rem;
+  font-size: 1.2em;
+  font-family: UbuntuRegular;
+}
+
+.artist-social-logo {
+  padding: 10px 10px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.artist-social-logo:nth-of-type(1) {
+  padding-left: 0px;
+}
+.artist-social-logo:not(:hover) path {
+  fill: black;
+}

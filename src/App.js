@@ -12,7 +12,7 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/artist/:name">
+          <Route path="/artist/:id">
             <Artist />
           </Route>
           <Route path="/">

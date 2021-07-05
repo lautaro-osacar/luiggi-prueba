@@ -5,7 +5,7 @@ import ArtistLink from "../ArtistLink/ArtistLink";
 
 const ArtistsList = ({ onHoverArtist, onHoverArtistEnd }) => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const names = Object.keys(artistsJson);
+  const ids = Object.keys(artistsJson);
 
   useEffect(() => {
     const updateMousePosition = (ev) => {
@@ -20,13 +20,14 @@ const ArtistsList = ({ onHoverArtist, onHoverArtistEnd }) => {
   return (
     <div id="wrapper">
       <div className="artists-container">
-        {[...names].splice(0, names.length / 2).map((name) => (
-          <div className="artist-link-container" key={name}>
+        {[...ids].splice(0, ids.length / 2).map((id) => (
+          <div className="artist-link-container" key={id}>
             <ArtistLink
-              name={name}
-              photo={artistsJson[name].photo}
-              photoPosition={artistsJson[name].photoPosition}
-              onHover={() => onHoverArtist(artistsJson[name])}
+              id={id}
+              name={artistsJson[id].name}
+              photo={artistsJson[id].photo}
+              photoPosition={artistsJson[id].photoPosition}
+              onHover={() => onHoverArtist(artistsJson[id])}
               onHoverEnd={onHoverArtistEnd}
               mousePosition={mousePosition}
             />
@@ -34,13 +35,14 @@ const ArtistsList = ({ onHoverArtist, onHoverArtistEnd }) => {
         ))}
       </div>
       <div className="artists-container">
-        {[...names].splice(-names.length / 2).map((name) => (
-          <div className="artist-link-container" key={name}>
+        {[...ids].splice(-ids.length / 2).map((id) => (
+          <div className="artist-link-container" key={id}>
             <ArtistLink
-              name={name}
-              photo={artistsJson[name].photo}
-              photoPosition={artistsJson[name].photoPosition}
-              onHover={() => onHoverArtist(artistsJson[name])}
+              id={id}
+              name={artistsJson[id].name}
+              photo={artistsJson[id].photo}
+              photoPosition={artistsJson[id].photoPosition}
+              onHover={() => onHoverArtist(artistsJson[id])}
               onHoverEnd={onHoverArtistEnd}
               mousePosition={mousePosition}
             />

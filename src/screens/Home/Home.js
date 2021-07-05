@@ -6,7 +6,7 @@ const Home = () => {
   const [selectedArtist, setSelectedArtist] = useState();
 
   return (
-    <React.Fragment>
+    <div className={selectedArtist && "with-background"}>
       {!!selectedArtist && (
         <div
           id="background"
@@ -25,7 +25,7 @@ const Home = () => {
           <span id="background-bottom-year">@2021</span>
         </div>
       )}
-    </React.Fragment>
+    </div>
   );
 };
 
