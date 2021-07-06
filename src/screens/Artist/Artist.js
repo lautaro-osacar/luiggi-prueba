@@ -17,11 +17,11 @@ const Artist = () => {
       <span id="artist-title">{artist.name}</span>
       <div id="artist-hz">
         <div id="artist-left">
-          <img
-            alt={artist.name}
-            src={process.env.PUBLIC_URL + artist.photo}
-            id="artist-image"
-          />
+          <span id="artist-description">
+            {artist.description.split("\n").map((str, index) => (
+              <p key={index}>{str}</p>
+            ))}
+          </span>
           <div id="artist-contact">
             Booking: ampi@clO-Olc.com
             <div id="artist-social-media">
@@ -32,11 +32,11 @@ const Artist = () => {
           </div>
         </div>
         <div id="artist-right">
-          <span id="artist-description">
-            {artist.description.split("\n").map((str, index) => (
-              <p key={index}>{str}</p>
-            ))}
-          </span>
+          <img
+            alt={artist.name}
+            src={process.env.PUBLIC_URL + artist.photo}
+            id="artist-image"
+          />
         </div>
       </div>
     </React.Fragment>

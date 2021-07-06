@@ -3,51 +3,54 @@
   color: black;
   font-family: DrukMedium;
   display: block;
-  z-index: 100;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 
 #artist-hz {
   display: flex;
   flex-direction: row;
+  margin-top: 15px;
 }
 
 #artist-left {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  max-width: 40vw;
+  padding-right: 40px;
 }
 
 #artist-image {
-  max-height: 60vh;
-  object-fit: contain;
-  object-position: left;
+    border-radius: 5px;
 }
 
 #artist-right {
   display: flex;
-  flex: 1;
   flex-direction: column;
+  max-width: 50vw;
+  max-height: 80vh;
+  overflow: hidden;
 }
 
 #artist-description {
-  padding-left: 15px;
-  padding-right: 40px;
   font-size: 1.2em;
   text-align: left;
   font-family: UbuntuRegular;
+  flex: 1;
 }
 
 #artist-description p {
   margin: 0;
-  margin-bottom: 1em;
+  margin-bottom: 1em; 
 }
 
 #artist-contact {
   margin-top: 1rem;
   font-size: 1.2em;
   font-family: UbuntuRegular;
+  text-align: right;
 }
 
 .artist-social-logo {
