@@ -84,10 +84,10 @@
   }
   #mobile-bottom-logo {
     display: block;
-    width: 80px;
+    width: 240px;
     position: fixed;
-    top: 15px;
-    left: 20px;
+    bottom: 20px;
+    right: 20px;
     mix-blend-mode: difference;
   }
 }

@@ -24,7 +24,7 @@
 
 @media (max-width: 768px) {
   .artist-link {
-    font-size: 3em;
+    font-size: 3.5em;
     background-color: transparent;
     color: white;
     mix-blend-mode: difference;
