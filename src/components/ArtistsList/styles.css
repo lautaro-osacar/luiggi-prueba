@@ -16,3 +16,8 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  #wrapper{
+    flex-direction:column;
+  }
+}

@@ -21,3 +21,16 @@
   max-width: 60vw;
   position: fixed;
 }
+
+@media (max-width: 768px) {
+  .artist-link {
+    font-size: 3em;
+    background-color: transparent;
+    color: white;
+    mix-blend-mode: difference;
+  }
+
+  .image {
+    display: none;
+  }
+}

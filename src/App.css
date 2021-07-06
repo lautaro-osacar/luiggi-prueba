@@ -5,7 +5,8 @@
 }
 @font-face {
   font-family: "UbuntuRegular";
-  src: local("UbuntuRegular"), url("./fonts/Ubuntu-Regular.ttf") format("truetype");
+  src: local("UbuntuRegular"),
+    url("./fonts/Ubuntu-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "UbuntuBold";
@@ -28,7 +29,7 @@
   left: 0;
   height: 100vh;
   width: 100vw;
-  background-image: url('./loui-01.svg');
+  background-image: url("./loui-01.svg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -63,6 +64,30 @@
   background-size: cover;
 }
 
-.with-background .artist-link{
+.with-background .artist-link {
   background-color: transparent;
+}
+
+#mobile-bottom-logo {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: #1f1f1f;
+    color: white;
+  }
+  .App {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 12px;
+  }
+  #mobile-bottom-logo {
+    display: block;
+    width: 250px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    mix-blend-mode: difference;
+  }
 }

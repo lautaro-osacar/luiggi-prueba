@@ -9,10 +9,10 @@
 }
 
 #about-description {
-  font-size: 15px;
   text-align: center;
   text-transform: uppercase;
   font-family: UbuntuRegular;
+  font-size: 1.2em;
 }
 
 .about-right {
@@ -47,7 +47,7 @@
 }
 
 #about-address {
-  font-size: 15px;
+  font-size: 1.2em; 
   text-align: center;
   font-family: UbuntuRegular;
   padding: 0 10px;
@@ -59,7 +59,7 @@
 
 #about-phrase {
   margin-top: 25px;
-  font-size: 15px;
+  font-size: 1.2em;
   text-align: center;
   text-transform: uppercase;
   font-family: UbuntuRegular;
