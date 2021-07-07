@@ -1,10 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Header from "../../components/Header/Header";
 import ArtistsList from "../../components/ArtistsList/ArtistsList";
+import ArrowDown from "../../icons/ArrowDown";
 
 const Home = () => {
   const [selectedArtist, setSelectedArtist] = useState();
   const [isMobile, setIsMobile] = useState(false);
+  const [isBottomReached, setBottomReached] = useState(false);
+  const appRef = useRef(null);
 
   useEffect(() => {
     const listener = (evt) => setIsMobile(!evt.matches);
@@ -28,8 +31,26 @@ const Home = () => {
     }
   }, []);
 
+  const isBottom = (el) => {
+    return el.current.getBoundingClientRect().bottom - 1 < window.innerHeight;
+  };
+
+  useEffect(() => {
+    const trackScrolling = () => {
+      if (isBottom(appRef)) {
+        setBottomReached(true);
+      }else{
+        setBottomReached(false);
+      }
+    };
+    document.addEventListener("scroll", trackScrolling);
+    return () => {
+      document.removeEventListener("scroll", trackScrolling);
+    };
+  }, [appRef]);
+
   return (
-    <div className={selectedArtist && "with-background"}>
+    <div className={selectedArtist && "with-background"} ref={appRef}>
       {!isMobile && !!selectedArtist && (
         <div
           id="background"
@@ -49,7 +70,12 @@ const Home = () => {
           <span id="background-bottom-year">@2021</span>
         </div>
       )}
-      {isMobile && <img id="mobile-bottom-logo" src="./crop2.gif" alt="logo" />}
+      {isMobile && (
+        <React.Fragment>
+          <img id="mobile-bottom-logo" src="./crop2.gif" alt="logo" />
+          {!isBottomReached && <ArrowDown id="mobile-arrow-down" onClick={console.log} />}
+        </React.Fragment>
+      )}
     </div>
   );
 };

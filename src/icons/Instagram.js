@@ -43,21 +43,7 @@ function SvgInstagram(props) {
         d="M275.517 133C196.933 133 133 196.933 133 275.516s63.933 142.517 142.517 142.517S418.034 354.1 418.034 275.516 354.101 133 275.517 133zm0 229.6c-48.095 0-87.083-38.988-87.083-87.083s38.989-87.083 87.083-87.083c48.095 0 87.083 38.988 87.083 87.083 0 48.094-38.989 87.083-87.083 87.083z"
         fill="url(#instagram_svg__b)"
       />
-      <linearGradient
-        id="instagram_svg__c"
-        gradientUnits="userSpaceOnUse"
-        x1={418.31}
-        y1={4.57}
-        x2={418.31}
-        y2={549.72}
-        gradientTransform="matrix(1 0 0 -1 0 554)"
-      >
-        <stop offset={0} stopColor="#e09b3d" />
-        <stop offset={0.3} stopColor="#c74c4d" />
-        <stop offset={0.6} stopColor="#c21975" />
-        <stop offset={1} stopColor="#7024c4" />
-      </linearGradient>
-      <circle cx={418.31} cy={134.07} r={34.15} fill="url(#instagram_svg__c)" />
+      <circle cx={418.31} cy={134.07} r={34.15} />
     </svg>
   );
 }

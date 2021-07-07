@@ -10,7 +10,7 @@ import SoundcloudIcon from "../../icons/Soundcloud";
 const Artist = () => {
   const { id } = useParams();
   const artist = artistsJson[id];
-  console.log(artist);
+
   return (
     <React.Fragment>
       <Header />

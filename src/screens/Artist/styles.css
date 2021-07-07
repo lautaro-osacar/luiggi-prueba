@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: row;
   margin-top: 15px;
-  direction: ltr;
 }
 
 #artist-left {
@@ -23,7 +22,8 @@
   padding-right: 40px;
   max-height: 80vh;
   overflow-y: scroll;
-  direction: rtl;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 #artist-left::-webkit-scrollbar {
