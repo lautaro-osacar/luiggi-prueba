@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "../../components/Header/Header";
 import { useParams } from "react-router-dom";
 import "./styles.css";
@@ -6,13 +6,16 @@ import artistsJson from "../../artists.json";
 import FacebookIcon from "../../icons/Facebook";
 import InstagramIcon from "../../icons/Instagram";
 import SoundcloudIcon from "../../icons/Soundcloud";
+import ScrollIndicator from "../../components/ScrollIndicator/ScrollIndicator";
 
 const Artist = () => {
   const { id } = useParams();
   const artist = artistsJson[id];
+  const appRef = useRef(null);
 
   return (
-    <React.Fragment>
+    <div ref={appRef}>
+      <ScrollIndicator appRef={appRef} />
       <Header />
       <span id="artist-title">{artist.name}</span>
       <div id="artist-hz">
@@ -39,7 +42,7 @@ const Artist = () => {
           />
         </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 

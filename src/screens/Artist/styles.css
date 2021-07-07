@@ -75,3 +75,38 @@
 .artist-social-logo:not(:hover) path {
   fill: black;
 }
+
+@media (max-width: 768px) {
+  #artist-title {
+    font-size: 3.5em;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+  }
+
+  #artist-hz {
+    flex-direction: column-reverse;
+  }
+
+  #artist-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    max-height: 50vh;
+    overflow: hidden;
+  }
+
+  #artist-left {
+    margin-top: 10px;
+    overflow: auto;
+    max-height: initial;
+  }
+
+  #artist-contact {
+    text-align: center;
+  }
+
+  .artist-social-logo:not(:hover) path {
+    fill: white;
+  }
+}
