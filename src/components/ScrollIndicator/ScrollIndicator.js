@@ -3,7 +3,7 @@ import ArrowDown from "../../icons/ArrowDown";
 
 const ScrollIndicator = ({ appRef }) => {
   const [isBottomReached, setBottomReached] = useState(false);
-  
+
   const isBottom = (el) => {
     return el.current.getBoundingClientRect().bottom - 1 < window.innerHeight;
   };
@@ -21,7 +21,7 @@ const ScrollIndicator = ({ appRef }) => {
       document.removeEventListener("scroll", trackScrolling);
     };
   }, [appRef]);
-
+  
   if (!isBottomReached) {
     return <ArrowDown id="mobile-arrow-down" />;
   } else return null;
