@@ -10,6 +10,9 @@ const ScrollIndicator = ({ appRef }) => {
 
   useEffect(() => {
     const trackScrolling = () => {
+      if (!appRef){
+        return
+      }
       if (isBottom(appRef)) {
         setBottomReached(true);
       } else {
