@@ -100,4 +100,12 @@
     margin-top: 25px;
     padding-bottom: 25px;
   }
+
+  .social-logo:not(:hover) path {
+    fill: white;
+  }
+
+  .social-logo path {
+    fill: white
+  }
 }
