@@ -5,14 +5,13 @@ const ScrollIndicator = ({ appRef }) => {
   const [isBottomReached, setBottomReached] = useState(false);
 
   const isBottom = (el) => {
-    return el.current.getBoundingClientRect().bottom - 1 < window.innerHeight;
+    if (el && el.current) {
+      return el.current.getBoundingClientRect().bottom - 1 < window.innerHeight;
+    }
   };
 
   useEffect(() => {
     const trackScrolling = () => {
-      if (!appRef){
-        return
-      }
       if (isBottom(appRef)) {
         setBottomReached(true);
       } else {
