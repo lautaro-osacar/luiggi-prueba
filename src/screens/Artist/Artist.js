@@ -6,6 +6,8 @@ import artistsJson from "../../artists.json";
 import FacebookIcon from "../../icons/Facebook";
 import InstagramIcon from "../../icons/Instagram";
 import SoundcloudIcon from "../../icons/Soundcloud";
+import DiscogsIcon from "../../icons/Discogs";
+import YoutubeIcon from "../../icons/Youtube";
 import ScrollIndicator from "../../components/ScrollIndicator/ScrollIndicator";
 
 const Artist = () => {
@@ -28,9 +30,31 @@ const Artist = () => {
           <div id="artist-contact">
             Booking: ampi@clO-Olc.com
             <div id="artist-social-media">
-              <FacebookIcon className="artist-social-logo" />
-              <InstagramIcon className="artist-social-logo" />
-              <SoundcloudIcon className="artist-social-logo" />
+              {!!artist.facebook && (
+                <a href={artist.facebook} target="_blank" rel="noreferrer">
+                  <FacebookIcon className="artist-social-logo" />
+                </a>
+              )}
+              {!!artist.instagram && (
+                <a href={artist.instagram} target="_blank" rel="noreferrer">
+                  <InstagramIcon className="artist-social-logo" />
+                </a>
+              )}
+              {!!artist.soundcloud && (
+                <a href={artist.soundcloud} target="_blank" rel="noreferrer">
+                  <SoundcloudIcon className="artist-social-logo" />
+                </a>
+              )}
+              {!!artist.youtube && (
+                <a href={artist.youtube} target="_blank" rel="noreferrer">
+                  <YoutubeIcon className="artist-social-logo" />
+                </a>
+              )}
+              {!!artist.discogs && (
+                <a href={artist.discogs} target="_blank" rel="noreferrer">
+                  <DiscogsIcon className="artist-social-logo" />
+                </a>
+              )}
             </div>
           </div>
         </div>
