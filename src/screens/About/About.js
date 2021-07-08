@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable no-restricted-globals */
+import React, { useEffect, useState } from "react";
 import Header from "../../components/Header/Header";
 import "./styles.css";
 import contentJson from "./content.json";
@@ -7,6 +8,33 @@ import InstagramIcon from "../../icons/Instagram";
 import SoundcloudIcon from "../../icons/Soundcloud";
 
 const About = () => {
+  const [mobileLogoYOffset, setMobileLogoYOffset] = useState(0);
+
+  useEffect(() => {
+    window.onscroll = function (e) {
+      var vertical_position = 0;
+      if (pageYOffset)
+        //usual
+        vertical_position = pageYOffset;
+      else if (document.documentElement.clientHeight)
+        //ie
+        vertical_position = document.documentElement.scrollTop;
+      else if (document.body)
+        //ie quirks
+        vertical_position = document.body.scrollTop;
+      setMobileLogoYOffset(vertical_position);
+    };
+  }, []);
+
+  const calcLogoPosition = () => {
+    var newPosition = 80 - mobileLogoYOffset;
+    if (newPosition<=10) {
+      return `10px`
+    } else {
+      return `${newPosition}px`
+    }
+  };
+
   return (
     <React.Fragment>
       <Header />
@@ -19,7 +47,12 @@ const About = () => {
           </span>
         </div>
         <div className="about-right">
-          <img id="about-logo" src="./crop2.gif" alt="logo" />
+          <img
+            id="about-logo"
+            src="./crop2.gif"
+            alt="logo"
+            style={{ top: calcLogoPosition() }}
+          />
         </div>
       </div>
       <div className="about-hz" id="bottom-about">
