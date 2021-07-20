@@ -41,7 +41,9 @@ const Home = () => {
       )}
       <Header />
       <ArtistsList
-        onHoverArtist={(artist) => setSelectedArtist(artist.photo)}
+        onHoverArtist={(artist) =>
+          setSelectedArtist(artist.photoBackground || artist.photo)
+        }
         onHoverArtistEnd={() => setSelectedArtist(null)}
         isMobile={isMobile}
       />
