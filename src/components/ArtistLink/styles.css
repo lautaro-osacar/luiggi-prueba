@@ -22,12 +22,6 @@
   position: fixed;
 }
 
-@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
-  .image {
-    mix-blend-mode: normal;
-  }
-}
-
 @media (max-width: 768px) {
   .artist-link {
     font-size: 3.5em;
