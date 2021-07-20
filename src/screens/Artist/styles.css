@@ -97,12 +97,14 @@
   }
 
   #artist-left {
+    padding-right: 5px;
     margin-top: 10px;
     overflow: auto;
     max-height: initial;
   }
 
   #artist-contact {
+    padding-left: 5px;
     text-align: center;
   }
 
