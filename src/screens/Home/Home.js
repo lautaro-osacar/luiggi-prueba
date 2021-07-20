@@ -42,11 +42,12 @@ const Home = () => {
 
   useEffect(() => {
     if (!isMobile && loaded) {
-      Object.values(artistsJson).forEach((artist) =>
-        preloadImage(artist.photoBackground)
-      );
+      Object.values(artistsJson).forEach((artist) => {
+        preloadImage(artist.photoBackground);
+        preloadImage(artist.photo);
+      });
     }
-  }, [loaded, isMobile]);
+  }, [loaded]);
 
   return (
     <div className={selectedArtist && "with-background"} ref={appRef}>
