@@ -28,10 +28,10 @@ const About = () => {
 
   const calcLogoPosition = () => {
     var newPosition = 80 - mobileLogoYOffset;
-    if (newPosition<=10) {
-      return `10px`
+    if (newPosition <= 10) {
+      return `10px`;
     } else {
-      return `${newPosition}px`
+      return `${newPosition}px`;
     }
   };
 
@@ -60,9 +60,15 @@ const About = () => {
           <div id="about-phrase">{contentJson.phrase}</div>
           <div id="about-contact">
             <div id="about-social-media">
-              <FacebookIcon className="social-logo" />
-              <InstagramIcon className="social-logo" />
-              <SoundcloudIcon className="social-logo" />
+              <a href={contentJson.facebook} target="_blank" rel="noreferrer">
+                <FacebookIcon className="social-logo" />
+              </a>
+              <a href={contentJson.instagram} target="_blank" rel="noreferrer">
+                <InstagramIcon className="social-logo" />
+              </a>
+              <a href={contentJson.soundcloud} target="_blank" rel="noreferrer">
+                <SoundcloudIcon className="social-logo" />
+              </a>
             </div>
           </div>
         </div>
