@@ -23,9 +23,7 @@ const Artist = () => {
       <div id="artist-hz">
         <div id="artist-left">
           <span id="artist-description">
-            {artist.description.split("\n").map((str, index) => (
-              <p key={index}>{str}</p>
-            ))}
+            {artist.description.replace("\n", `\n`)}
           </span>
           <div id="artist-contact">
             Booking: ampi@clO-Olc.com
