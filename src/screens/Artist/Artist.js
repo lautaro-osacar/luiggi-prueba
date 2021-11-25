@@ -19,7 +19,10 @@ const Artist = () => {
     <div ref={appRef}>
       <ScrollIndicator appRef={appRef} />
       <Header />
-      <span id="artist-title">{artist.name}</span>
+      <div id="artist-title">
+        {artist.name}
+        <span id="artist-pronoun">{artist.pronoun}</span>
+      </div>
       <div id="artist-hz">
         <div id="artist-left">
           <span id="artist-description">
