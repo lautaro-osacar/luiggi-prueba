@@ -7,15 +7,11 @@
   -moz-osx-font-smoothing: grayscale;
   margin-bottom: 10px;
   border-bottom: 1px solid black;
-  display: flex;
 }
 
 #artist-pronoun {
   font-size: 0.6em;
   margin-left: 10px;
-  flex: 1;
-  align-self: flex-end;
-  text-align: right;
 }
 
 #artist-hz {
