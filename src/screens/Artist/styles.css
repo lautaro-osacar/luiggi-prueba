@@ -37,6 +37,8 @@
 
 #artist-image {
   border-radius: 5px;
+  max-width: 50vw;
+  max-height: 80vh;
 }
 
 #artist-right {
