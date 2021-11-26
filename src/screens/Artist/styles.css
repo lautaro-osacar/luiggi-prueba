@@ -12,6 +12,7 @@
 #artist-pronoun {
   font-size: 0.6em;
   margin-left: 10px;
+  white-space: nowrap;
 }
 
 #artist-hz {
@@ -86,7 +87,7 @@
 
 @media (max-width: 768px) {
   #artist-title {
-    font-size: 3.5em;
+    font-size: 12vw;
     background-color: transparent;
     color: white;
     border-color: white;
@@ -128,5 +129,7 @@
     border-radius: 5px;
     width: 100%;
     height: auto;
+    max-width: none;
+    max-height: none;
   }
 }
